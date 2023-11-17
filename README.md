@@ -24,6 +24,10 @@ Hi there! My name is Mastoora Turkmen and welcome to my learning journal.
 
 ![about-page-1](./Images/about-page1.png)
 
+### **_View page_**
+
+![view-page](./Images/view-page.png)
+
 Thank you,
 Best Regards,
 
