@@ -1,357 +1,334 @@
 * {
-    box-sizing: border-box;
-    font-family: 'Source Sans Pro';
+  box-sizing: border-box;
+  font-family: "Source Sans Pro";
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #000000;
-    background: #FAFAFA;
-    line-height: 20px;
-                                                
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #000000;
+  background: #fafafa;
+  line-height: 20px;
 }
-
 
 /* ==================
     Typography
 ===================== */
 
-h1{
-    font-size: 40px;
-    font-weight: bold;
-    line-height: 108%;
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 108%;
 }
 
-
-a:link{
-    margin-top: 34px;
-    margin-right: 53px;
-    
+a:link {
+  margin-top: 34px;
+  margin-right: 53px;
 }
 
-a{
-    color: #090909;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px; 
-    text-transform: uppercase;
-    cursor: pointer;
+a {
+  color: #090909;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 nav {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
-a:hover{
-    color: #4C1D95;
+a:hover {
+  color: #4c1d95;
 }
 
-
-.section{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 25px;
-    margin-right: 53px;
-    
+.section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+  margin-right: 53px;
 }
 
-
-.page{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background: #FFFFFF;
+.page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #ffffff;
 }
 
-.learning{
-    margin-top: 24px;
+.learning {
+  margin-top: 24px;
 }
 
-.icon{
-    width: 40px;
-    height: 40px;
+.icon {
+  width: 40px;
+  height: 40px;
 }
 
-
-.header-title{
-    margin-top: 10px;   
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-size: 20px;
-    line-height: 108%;
+.header-title {
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 108%;
 }
 
-.blog-img{
-    max-width: 100%;
-    max-height: 100%;
+.blog-img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .about-me,
 .home {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
-.current{
-    border-bottom: 1px solid #141414;
-
+.current {
+  border-bottom: 1px solid #141414;
 }
 
 /* ==================
     hero section
 ===================== */
 
-
-.hero-post{
-    display: flex;
-    flex-direction: column;
-    background-image: url("Big-image.png");
-    background-position: center;
-    background-size: cover;
-    color: white;
-    margin-bottom: 53px;
-    margin-top: 34px;
-    height: 588px;
-    max-width: 100%;
+.hero-post {
+  display: flex;
+  flex-direction: column;
+  background-image: url("Big-image.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  margin-bottom: 53px;
+  margin-top: 34px;
+  height: 588px;
+  max-width: 100%;
 }
 
-.hero-date{
-    order: -1;
-    margin-top: 280px;
-    padding-top: 6em;
+.hero-date {
+  order: -1;
+  margin-top: 280px;
+  padding-top: 6em;
 }
 
-.hero-para, .hero-title{
-    margin: 0px;
+.hero-para,
+.hero-title {
+  margin: 0px;
 }
 
-.hero-para{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
-    max-width: 600px;
-    
+.hero-para {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  max-width: 600px;
 }
 
-.hero-title{
-    margin-bottom: 10px;
-    font-family: inherit; 
+.hero-title {
+  margin-bottom: 10px;
+  font-family: inherit;
 }
 
 .space {
-    margin-left: 53px;
+  margin-left: 53px;
 }
 
-.blogs{
-    border-radius: 2px;
-    
+.blogs {
+  border-radius: 2px;
 }
 
-.view-more-btn{
-   display: flex;
-   text-decoration: underline;
-   text-transform: capitalize;
-   justify-content: center;
-   margin-left: 50px;
+.view-more-btn {
+  display: flex;
+  text-decoration: underline;
+  text-transform: capitalize;
+  justify-content: center;
+  margin-left: 50px;
 }
 
-
-.introduction{
-    display: flex;
+.introduction {
+  display: flex;
 }
 
-
-.my-img{
-    border-radius: 50%;
-    width: 182px;
-    height: 182px;
-    margin-left: 52px;
-    margin-right: 33px;
+.my-img {
+  border-radius: 50%;
+  width: 182px;
+  height: 182px;
+  margin-left: 52px;
+  margin-right: 33px;
 }
 
-.blog-img{
-    border-radius: 3px;
+.blog-img {
+  border-radius: 3px;
 }
 
 .main-intro,
 .article-div {
-    margin-left: 110px;
-    margin-right: 110px;
+  margin-left: 110px;
+  margin-right: 110px;
 }
 
-.intro-title{
-    font-size: 36px;
+.intro-title {
+  font-size: 36px;
 }
 
 .intro-title,
 .intro-para {
-    margin-right: 110px;  
- }
-
-.main-intro-title{
-    margin-top: 36px;
+  margin-right: 110px;
 }
 
-.same{
-    margin-top: 91px;
-    margin-bottom: 50px;
+.main-intro-title {
+  margin-top: 36px;
 }
 
-.recent-post{
-    text-align: center;
-    margin-top: 53px;
-    margin-bottom: 20px;
+.same {
+  margin-top: 91px;
+  margin-bottom: 50px;
+}
+
+.recent-post {
+  text-align: center;
+  margin-top: 53px;
+  margin-bottom: 20px;
 }
 
 /* ///////////////////////
       article
 ////////////////////// */
 
-.article-title{
-    font-size: 36px;
-    margin-top: 15px;
+.article-title {
+  font-size: 36px;
+  margin-top: 15px;
 }
 
 .article-div {
-    margin-bottom: 36px;
-    margin-top: 70px;
+  margin-bottom: 36px;
+  margin-top: 70px;
 }
 
-.article-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+.article-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
-
 
 /* ///////////////////////
       footer
 ////////////////////// */
-   
 
-.footer{
-    text-align: center;
-    background: #202020;
-    padding: 37px;
-    color: #ECECEC;
-    font-size: 12px;
-    margin-top: 51px;
+.footer {
+  text-align: center;
+  background: #202020;
+  padding: 37px;
+  color: #ececec;
+  font-size: 12px;
+  margin-top: 51px;
 }
 
-.footer-capy-right{
-    margin-top: 0px;
+.footer-capy-right {
+  margin-top: 0px;
 }
 
-.footer-text{
-    margin-bottom: 0px;
+.footer-text {
+  margin-bottom: 0px;
 }
-
 
 /* ///////////////////////
    Media queries
 ////////////////////// */
-   
 
-@media(max-width: 600px){
-    
-   body{
-        line-height: 20px;
-    }
-  
-  h1{
-      font-size: 32px;
+@media (max-width: 600px) {
+  body {
+    line-height: 20px;
   }
-  
-   .hero-date{
+
+  h1 {
+    font-size: 32px;
+  }
+
+  .hero-date {
     margin-top: 50px;
-
   }
-  
-   .section{
+
+  .section {
     display: flex;
     flex-direction: column;
     grid-column-gap: 2em;
     grid-gap: 25px;
     margin-right: 20px;
-    
-   } 
-   
-   .hero-para{
-       font-size: 16px;
-   }
-   
-   .hero-post{
-       width: 600px;
-       height: 400px;
-   }
-   
-   .space{
-       margin-left: 20px;
-   }
-   
-   .header-title, 
-   .about-me,
-   .home,
-   .hero-date {
-       font-size: 13px;
-   }
-   
-   .icon{
-       width: 30px;
-       height: 30px;
-   }
-   
-   .page{
-       margin-left: 10px;
-   }
-   
-   .introduction{
-       display: flex;
-       flex-direction: column;
-   }
-   
-   .same,
-   .my-img{
-       margin-bottom: 0px;
-   }
-   
-   .same{
-      margin-top: 26px;
-   }
-   
-   .intro-title{
-       margin-top: 0px;
-       font-size: 30px;
-   }
-   
-   .my-img{
-       margin-left: 0px;
-   }
-   
-   .main-intro,
-   .same, 
-   .article-div{
-       margin-left: 20px;
-       margin-right: 20px;
-   }
-   
-   .intro-title,
-   .intro-para {
-    margin-right: 20px;  
- }
-   
-   .main-intro{
-       margin-top: 40px;
-   }
-   
-   .recent-post{
-       font-size: 20px;
-       margin-bottom: 27px;
-   }
-   
-   
-}
+  }
 
+  .hero-para {
+    font-size: 16px;
+  }
+
+  .hero-post {
+    width: 600px;
+    height: 400px;
+  }
+
+  .space {
+    margin-left: 20px;
+  }
+
+  .header-title,
+  .about-me,
+  .home,
+  .hero-date {
+    font-size: 13px;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .page {
+    margin-left: 10px;
+  }
+
+  .introduction {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .same,
+  .my-img {
+    margin-bottom: 0px;
+  }
+
+  .same {
+    margin-top: 26px;
+  }
+
+  .intro-title {
+    margin-top: 0px;
+    font-size: 30px;
+  }
+
+  .my-img {
+    margin-left: 0px;
+  }
+
+  .main-intro,
+  .same,
+  .article-div {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .intro-title,
+  .intro-para {
+    margin-right: 20px;
+  }
+
+  .main-intro {
+    margin-top: 40px;
+  }
+
+  .recent-post {
+    font-size: 20px;
+    margin-bottom: 27px;
+  }
+}
