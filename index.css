@@ -97,7 +97,7 @@ a:hover {
 .hero-post {
   display: flex;
   flex-direction: column;
-  background-image: url("Big-image.png");
+  background-image: url("./Images/Big-image.png");
   background-position: center;
   background-size: cover;
   color: white;
